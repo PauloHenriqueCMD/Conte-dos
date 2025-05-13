@@ -92,6 +92,7 @@
 // });
 
 
+
 // let acumulador = 0;
 // const numeros = [10, 20, 30];
 // numeros.forEach(function(numero){
@@ -99,3 +100,63 @@
 // });
 // console.log(acumulador)
 
+
+
+// const pessoas = [
+//   pessoa1 = {
+//     nome: "Alex",
+//     idade: 29
+//   },
+//   pessoa2 = {
+//     nome:"Yoshi",
+//     idade: 18
+//   }
+// ];
+// const nomes = pessoas.map(pessoas => ){
+  
+// }
+
+
+
+// const pontuacoes = [15, 20, 8, 12];
+// const pontos = pontuacoes.map(pontos =>{return pontos +10})
+// console.log(pontos)
+
+
+
+// let novaPontuacao = []
+// let pontuacoes = [15, 20, 8, 12];
+//   pontuacoes.forEach(function(novaP){
+//   novaPontuacao.push(novaP + 10)
+ 
+// });
+// console.log(novaPontuacao)
+
+
+
+// const alunos = [
+//  { nome: "Alex", nota: 4},
+//  { nome: "Yoshi", nota: 9},
+//  { nome: "Mario", nota: 7},
+// ];
+ 
+// const aprovados = alunos.filter(aluno => aluno.nota >=7);
+//   console.log(aprovados);
+
+
+
+// const numeros = [10, 20, 30];
+
+// const somar = numeros.reduce((acumulador, numeros) =>{
+//   return acumulador + numeros;
+// }, 0);
+//   console.log( somar)
+
+
+
+const notas = [7, 8, 6, 9, 5];
+
+const media = notas.reduce((acumulador, notas) => {
+    return acumulador + notas;
+})
+  console.log(`Sua nota bostíl é ${media/5}`)
