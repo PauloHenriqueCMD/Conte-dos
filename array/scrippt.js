@@ -154,9 +154,32 @@
 
 
 
-const notas = [7, 8, 6, 9, 5];
+// const notas = [7, 8, 6, 9, 5];
 
-const media = notas.reduce((acumulador, notas) => {
-    return acumulador + notas;
-})
-  console.log(`Sua nota bostíl é ${media/5}`)
+// const media = notas.reduce((acumulador, notas) => {
+//     return acumulador + notas;
+// })
+//   console.log(`Sua nota bostíl é ${media/5}`)
+
+
+// const usuario = {
+//   nome: "Paulo",
+//   ativo: true 
+// }
+
+// function processarUsuario (usuario, callback) {
+//    if (usuario.ativo === true){
+//      callback (`Usuário ${usuario.nome} está ativo`);
+// }
+    
+//    else {
+//      callback (`Usuário ${usuario.nome} está inativo`);
+//    }
+// }
+// function exibirMensagem (mensagem){
+//    console.log(mensagem);
+// }
+// processarUsuario(usuario, exibirMensagem)
+
+
+
