@@ -58,16 +58,16 @@
 
 
 
-const botoes = document.querySelectorAll("button");
-    botoes.forEach(function(botao) {
-        botao.addEventListener("click", (botoes) => {
-            if (botoes.target.id === "maior") {
-                alert(`Você é maior de idade!`);
-            }
-            else {
-                alert(`Você é menor de idade!`);
-            }
-        });
+// const botoes = document.querySelectorAll("button");
+//     botoes.forEach(function(botao) {
+//         botao.addEventListener("click", (botoes) => {
+//             if (botoes.target.id === "maior") {
+//                 alert(`Você é maior de idade!`);
+//             }
+//             else {
+//                 alert(`Você é menor de idade!`);
+//             }
+//         });
         
-    });
+//     });
 
